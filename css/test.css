@@ -1,0 +1,65 @@
+html{width:100%;height:100%;overflow:hidden}
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-width: 320px;
+    max-width: 414px;
+    margin: 0 auto;
+    font-size: 0;
+}
+#skroller-body *{position:absolute}
+/*背景*/
+.bg-records{
+	width: 100%;
+	height: 100%;
+	background: url("../img/background.png");
+	background-size:272px 371px;
+	background-position:center;
+	background-color:#fff;
+}
+.month-odd{right:50%;top:162px;width:332px;height:332px}
+.month-odd div{
+	left:50%;
+	margin-left:-85px;
+	margin-top:-69px;
+	width:169px;
+	height:468px;
+	-webkit-transform-origin:50% 50%;
+	-webkit-transform:rotate(45deg);
+	background-image:url("../img/test.png");
+	background-size:2029px 468px
+}
+.month-even{left:50%;top:309px;width:332px;height:332px;}
+.month-even div{
+	left:50%;
+	margin-left:-85px;
+	margin-top:-69px;
+	width:169px;
+	height:468px;
+	-webkit-transform-origin:50% 50%;
+	-webkit-transform:rotate(-45deg);
+	background-image:url("../img/test.png");
+	background-size:2029px 468px
+}
+
+.month-all div{
+	width:169px;
+	height:468px;
+	background-image:url("../img/test.png");
+	background-size:2029px 468px
+}
+.month01 div{background-position:-1690px 0}
+.month02 div{background-position:-507px 0}
+.month03 div{background-position:-1014px 0}
+.month04 div{background-position:-169px 0}
+.month05 div{background-position:-1352px 0}
+.month06 div{background-position:-338px 0}
+.month07 div{background-position:-1521px 0}
+.month08 div{background-position:-676px 0}
+.month09 div{background-position:-1859px 0}
+.month10 div{background-position:-1183px 0}
+.month11 div{background-position:-845px 0}
+.month12 div{background-position:0 0}
+
+
